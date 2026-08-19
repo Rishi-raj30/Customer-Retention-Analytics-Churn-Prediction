@@ -37,4 +37,7 @@ The project uses the **IBM Telco Customer Churn** dataset (7043 rows × 21 colum
 - `README.md` – Project description, insights, and usage.  
 - `queries.sql` – SQL scripts for ETL and analytic queries.  
 - `model.py` – Python script for preprocessing, training, evaluation, and saving outputs. 
-- `LICENSE` – License file (e.g. MIT License).  
+- `LICENSE` – License file (e.g. MIT License).
+
+## 👨‍💻 About the Author
+**Rishi Raj Beniwal**
