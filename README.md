@@ -26,7 +26,9 @@ The project uses the **IBM Telco Customer Churn** dataset (7043 rows × 21 colum
 - **Payment method:** Customers paying by electronic check churn at ~45.3%, far above other methods.  
 - **Internet service:** Fiber-optic users churn (~41.9%) more than DSL (~19.0%) or no internet (~7.4%).  
 - **Support services:** Lack of online security or tech support is linked to ~41–42% churn vs ~15% with these services.  
-- **Tenure and charges:** Churners average ~18 months tenure vs ~37 for loyal users, and pay higher monthly fees (~$74 vs $61). Early-tenure customers on high plans are especially at risk.  
+- **Tenure and charges:** Churners average ~18 months tenure vs ~37 for loyal users, and pay higher monthly fees (~$74 vs $61). Early-tenure customers on high plans are especially at risk.
+<img width="1350" height="738" alt="{ACD247AC-0F5C-4E69-B2B8-7AB2CC92A41F}" src="https://github.com/user-attachments/assets/890628bc-7e6d-479b-843e-d28d8b158b41" />
+
 
 ## Usage Instructions  
 1. **SQL Setup:** Run `queries.sql` in SQL Server to create the staging and fact tables and views. Adjust table/column names as needed.  
