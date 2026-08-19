@@ -4,11 +4,11 @@
 End-to-end analytics and machine learning pipeline to analyze and predict telecom customer churn. The pipeline uses SQL for data processing and Python (Scikit-learn) for modeling.  
 
 ## Dataset  
-The project uses the **IBM Telco Customer Churn** dataset (7043 rows × 21 columns). It contains customer demographics, account and service information, billing (monthly/total charges), and churn outcome (Yes/No). The data combines features such as tenure, contract type, payment method, internet service, support add-ons, and churn labels. *(Note: if using a modified version, verify the exact row/column count.)*  
+The project uses the **IBM Telco Customer Churn** dataset (7043 rows × 21 columns). It contains customer demographics, account and service information, billing (monthly/total charges), and churn outcome (Yes/No). The data combines features such as tenure, contract type, payment method, internet service, support add-ons, and churn labels.  
 
 ## Technologies  
-- **SQL Server / T-SQL**: Data ingestion, staging, cleaning and transformation. Analytical views for reporting (e.g., churn by contract, payment, service, tenure).  
-- **Power BI**: (Optional) Used for interactive dashboards and KPIs (not included here).  
+- **SQL Server **: Data ingestion, staging, cleaning and transformation. Analytical views for reporting (e.g., churn by contract, payment, service, tenure).  
+- **Power BI**:  Used for interactive dashboards and KPIs ]
 - **Python (Pandas, NumPy)**: Data loading, preprocessing, encoding and feature engineering.  
 - **Scikit-learn**: RandomForestClassifier model training, prediction and evaluation.  
 - **Matplotlib/Seaborn**: Visualization of feature importance and results.  
